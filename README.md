@@ -16,7 +16,5 @@ A family notes/planning app that can be edited in real time by multiple parties.
   ```
   Clone repo and run `npm i` from 'client' directory to install project set-up
 
-## Mongoose Set-Up
-Install `MongoDb` and `Mongosh` or preferred database for local use. Mongoose is a great light client for this type of use. 
-
-Spin up your local Db in shell with `mongod`. In new shell run `mongosh` for easy CLI acesss. This will store Docs locally in `google-docs-clone` collection. Once in mongosh run `show dbs` to access all active dbs. Run `use google-docs-clone` to step into correct Db. In this Db run `show collections`. If you have a `documents` collection you're all set up. 
+## Database Set-Up
+Any lightweight db will do well, i.e. Mongoose, Firebase, etc... Simply spin up in new shell for local development and testing.  
